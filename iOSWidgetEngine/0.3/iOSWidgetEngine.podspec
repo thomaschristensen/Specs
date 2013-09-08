@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "iOSWidgetEngine"
-  s.version      = "0.2"
+  s.version      = "0.3"
   s.summary      = "The fokusOn Widget Engine for iOS"
   s.homepage     = "https://bitbucket.org/tchristensen/ioswidgetengine"
   s.license      = { :type => 'MIT', :text => <<-LICENSE
