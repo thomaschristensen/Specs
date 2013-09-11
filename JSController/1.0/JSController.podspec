@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                    }
   s.author       = { "Thomas Christensen" => "tchristensen@nordija.com" }
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/thomaschristensen/JSController.git", :tag => "1.0" }
+  s.source       = { :git => "https://github.com/thomaschristensen/JSController.git"}
   s.source_files  = 'Controller', 'Controller/**/*.{h,m}'
   s.public_header_files = 'Controller/**/*.h'
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
