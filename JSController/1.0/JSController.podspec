@@ -11,7 +11,8 @@ Pod::Spec.new do |s|
   s.author       = { "Thomas Christensen" => "tchristensen@nordija.com" }
   s.platform     = :ios
   s.source       = { :git => "https://github.com/thomaschristensen/JSController.git"}
-  s.source_files  = 'Controller', 'Controller/**/*.{h,m}'
+  s.source_files = 'Controller', 'Controller/**/*.{h,m}'
+  s.resources    = ["Controller/*.png", "Controller/Gameboy-landscape.plist"]
   s.public_header_files = 'Controller/**/*.h'
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
   s.ios.deployment_target = '6.0'
